@@ -1,8 +1,6 @@
-.block {
-    color: black;
-    background-color: grey;
-    border: 5px;
-    border-color: black;
+.popup {
+    color: white;
+    background-color: darkred;
     text-align: center;
     height: 200px;
     width: 200px;
@@ -11,4 +9,7 @@
     right: 50%;
     transform: translate(-50%,-50%);
     margin-top: 50px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
 }

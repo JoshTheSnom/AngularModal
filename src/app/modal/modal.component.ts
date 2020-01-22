@@ -9,9 +9,7 @@ export class ModalComponent implements OnInit {
 
   @Input()
   public text = "";
-
   constructor() { }
-
   ngOnInit() {
   }
 
