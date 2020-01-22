@@ -1,0 +1,14 @@
+.block {
+    color: black;
+    background-color: grey;
+    border: 5px;
+    border-color: black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+}

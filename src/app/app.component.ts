@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Modal';
+  title = 'modal';
+  private click = false;
+
+  modal() {
+    this.click = !this.click;
+  }
+
+  exit() {
+    this.click = !this.click;
+  }
 }
